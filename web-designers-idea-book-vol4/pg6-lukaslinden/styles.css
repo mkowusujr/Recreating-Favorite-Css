@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url('img-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(226, 0, 0, 0.8);
+
+}
+
+h1, h2, a {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+}
+
+.content {
+    display: block;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+.main-content {
+    margin-top: 23em;
+    margin-left: 4em;
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+}
+
+.main-content h2 {
+    font-size: .5;
+}
