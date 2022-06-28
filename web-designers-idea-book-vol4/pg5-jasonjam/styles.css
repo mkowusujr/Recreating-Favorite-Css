@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 4em;
+    width: 100%;
+}
+
+.icon {
+    margin-left: auto;
+}
+
+.collaspable {
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 1.25em;
+    height: 1.0em;
+}
+
+.collaspe-bar {
+    display: block;
+    width: 100%;
+    height: 0.187em;
+    background-color: black;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-bottom: 2em;
+}
+
+p {
+    font-size: small;
+}
+
+.sub-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+hr {
+    width: 4em;
+    position: relative;
+    bottom: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
