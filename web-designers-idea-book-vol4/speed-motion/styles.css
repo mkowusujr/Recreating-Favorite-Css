@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url('old_pc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11em;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(0, 255, 170);
+}
+
+hr {
+    border-top: 0.3em solid rgb(255, 41, 77);
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(255, 41, 77);
+}
