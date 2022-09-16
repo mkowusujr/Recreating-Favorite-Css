@@ -27,24 +27,43 @@ nav {
     padding-right: 7em;
     padding-top: 1em;
     padding-bottom: 1em;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgb(255, 41, 77);
+}
+
+.current-page {
+    color: rgb(255, 41, 77);
+    text-decoration: underline;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 11em;
 }
 
 h1 {
-    font-size: 70px;
-    color: rgb(0, 255, 170);
+    font-size: 90px;
+    color: rgb(72, 218, 169);
 }
 
 hr {
     border-top: 0.3em solid rgb(255, 41, 77);
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
 }
 
 h2 {
     font-size: 40px;
     color: rgb(255, 41, 77);
+    margin-left: auto;
+    margin-right: auto;
 }
